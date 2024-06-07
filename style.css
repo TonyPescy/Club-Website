@@ -2,6 +2,7 @@ html {
     font-size: 16px;
     background-color: #bb8a5f;
     justify-content: center;
+    color: white;
 }
 
 /*CSS For Laptop Screens*/
@@ -37,8 +38,8 @@ html {
     }
 
     .Nav a {
-        color: white;
-        text-decoration: underline white;
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
         font-size: 3rem;    /* 1/2 of title font*/
     }
 
@@ -57,6 +58,15 @@ html {
         z-index: -1;
         max-height: 1000px;
         overflow: hidden;
+    }
+
+    .Description {
+        font-size: 3rem;
+        margin: auto;
+        text-align: center;
+        width: 75%;
+        position: relative;
+        bottom: 28rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
     }
 }
 
