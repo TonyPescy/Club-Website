@@ -1,0 +1,130 @@
+html {
+    font-size: 16px;
+    background-color: #bb8a5f;
+    justify-content: center;
+}
+
+/*CSS For Laptop Screens*/
+/*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+@media only screen and (max-width: 1600px) {
+    
+    .Nav {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .Title {
+        position: relative;
+        font-size: 5rem;
+        margin: auto;
+    }
+
+    #CoverImage {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/*CSS For Desktop Screens*/
+@media only screen and (min-width: 1601px){
+
+    .Nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Nav a {
+        color: white;
+        text-decoration: underline white;
+        font-size: 3rem;    /* 1/2 of title font*/
+    }
+
+    .Title {
+        font-size: 6rem;
+        color: white;
+        background-color: #bb8a5f;
+        text-align: center;
+    }
+
+    .CoverImage {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 28rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        z-index: -1;
+        max-height: 1000px;
+        overflow: hidden;
+    }
+}
+
+/*CSS For Landscape Tablet Screens*/
+/*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+@media only screen and (max-width: 1024px) {
+
+    .Nav {
+        font-size: 9rem;
+        padding: 0;
+    }
+
+    .Title {
+        position: relative;
+        font-size: 5rem;
+        color: white;
+    }
+
+    #CoverImage {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/*CSS For Vertical Tablet Screens*/
+/*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+@media only screen and (max-width: 768px) {
+
+    .Nav {
+        font-size: 9rem;
+        padding: 0;
+    }
+
+    .Title {
+        position: relative;
+        font-size: 5rem;
+        color: white;
+    }
+
+    #CoverImage {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/*CSS For Mobile Screens*/
+/*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+@media only screen and (max-width: 480px) {
+
+    .Nav {
+        font-size: 9rem;
+        padding: 0;
+    }
+
+    .Title {
+        position: relative;
+        font-size: 5rem;
+        color: white;
+    }
+
+    #CoverImage {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
