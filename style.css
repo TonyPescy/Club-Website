@@ -54,7 +54,7 @@ html {
         display: flex;
         justify-content: space-evenly;
         position: relative;
-        bottom: 28rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        bottom: 30rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
         z-index: -1;
         max-height: 1000px;
         overflow: hidden;
@@ -66,7 +66,58 @@ html {
         text-align: center;
         width: 75%;
         position: relative;
-        bottom: 28rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        bottom: 30rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+    }
+    
+    .Pics {
+        position: relative;
+        bottom: 30rem;  /* Title font size*(TitleFontSize-1))  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Pics #ClubPics img {
+        width: 1000px;
+        height: 1000px;
+    }
+    
+    .ReviewHeader {
+        position: relative;
+        bottom: 30rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 4rem;
+    }
+
+    .Reviews {
+        position: relative;
+        bottom: 30rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Reviews #R1 {
+        width: 500px;
+    }
+
+    .Reviews #R2 {
+        width: 500px;
+    }
+
+    .Reviews #R3 {
+        width: 500px;
+    }
+
+    .Reviews h6 {
+        font-size: 2rem;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .Reviews p {
+        font-size: 1.5rem;
+        margin: auto;
+        width: fit-content;
     }
 }
 
