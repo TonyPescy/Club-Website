@@ -119,6 +119,21 @@ html {
         margin: auto;
         width: fit-content;
     }
+
+    .Meet {
+        position: relative;
+        bottom: 30rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+    }
+
+    .Meet #MeetText {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .Meet #MeetMap {
+        text-align: center;
+    }
+
 }
 
 /*CSS For Landscape Tablet Screens*/
