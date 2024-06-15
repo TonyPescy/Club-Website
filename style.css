@@ -32,6 +32,11 @@ html {
 /*CSS For Desktop Screens*/
 @media only screen and (min-width: 1601px){
 
+    .All {
+        max-height: 4200px;
+        overflow: hidden;
+    }
+
     .Nav {
         display: flex;
         justify-content: space-evenly;
@@ -41,6 +46,25 @@ html {
         color: #5d3a20;
         text-decoration: underline #5d3a20;
         font-size: 3rem;    /* 1/2 of title font*/
+    }
+
+    .Nav a:link {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
+    }
+
+    .Nav a:hover {
+        text-decoration: none;
+    }
+
+    .Nav a:visited {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
+    }
+
+    .Nav a:active {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
     }
 
     .Title {
@@ -132,6 +156,38 @@ html {
 
     .Meet #MeetMap {
         text-align: center;
+    }
+
+    .Contact {
+        background-color: #5d3a20;
+        position: relative;
+        bottom: 30rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        text-align: center;
+    }
+
+    .Contact a {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+        font-size: 1rem;    /* 1/2 of title font*/
+    }
+
+    .Contact a:link {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+    }
+
+    .Contact a:hover {
+        text-decoration: none;
+    }
+
+    .Contact a:visited {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+    }
+
+    .Contact a:active {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
     }
 
 }
