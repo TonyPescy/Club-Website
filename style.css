@@ -7,25 +7,165 @@ html {
 
 /*CSS For Laptop Screens*/
 /*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+/* MAKE IT FIT ON A 1025 SCREEN */
 @media only screen and (max-width: 1600px) {
     
+    .All {
+        max-height: 3600px;
+        overflow: hidden;
+    }
+
     .Nav {
-        font-size: 2rem;
-        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Nav a {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
+        font-size: 2rem;    /* 1/2 of title font*/
+    }
+
+    .Nav a:link {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
+    }
+
+    .Nav a:hover {
+        text-decoration: none;
+    }
+
+    .Nav a:visited {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
+    }
+
+    .Nav a:active {
+        color: #5d3a20;
+        text-decoration: underline #5d3a20;
     }
 
     .Title {
+        font-size: 4rem;
+        color: white;
+        background-color: #bb8a5f;
+        text-align: center;
+    }
+
+    .CoverImage {
+        display: flex;
         position: relative;
-        font-size: 5rem;
+        bottom: 18rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        z-index: -1;
+        max-height: 800px;
+        max-width: 1600px;
+        overflow: hidden;
+    }
+
+    .Description {
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+        width: 75%;
+        position: relative;
+        bottom: 18rem;  /* Title font size*Nav Font size +.5*(Title font size*Nav Font size)  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+    }
+    
+    .Pics {
+        position: relative;
+        bottom: 18rem;  /* Title font size*(TitleFontSize-1))  IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Pics #ClubPics img {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .ReviewHeader {
+        position: relative;
+        bottom: 18rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 3rem;
+    }
+
+    .Reviews {
+        position: relative;
+        bottom: 18rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Reviews #R1 {
+        width: 500px;
+    }
+
+    .Reviews #R2 {
+        width: 500px;
+    }
+
+    .Reviews #R3 {
+        width: 500px;
+    }
+
+    .Reviews h6 {
+        font-size: 1.5rem;
+        width: fit-content;
         margin: auto;
     }
 
-    #CoverImage {
-        margin: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
+    .Reviews p {
+        font-size: 1.25rem;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .Meet {
+        position: relative;
+        bottom: 18rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+    }
+
+    .Meet #MeetText {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .Meet #MeetMap {
+        text-align: center;
+    }
+
+    .Contact {
+        background-color: #5d3a20;
+        position: relative;
+        bottom: 18rem;  /*   IDKYET, THIS MAY NEED TO BE TWEAKED*/
+        text-align: center;
+    }
+
+    .Contact a {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+        font-size: 1rem;    /* 1/2 of title font*/
+    }
+
+    .Contact a:link {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+    }
+
+    .Contact a:hover {
+        text-decoration: none;
+    }
+
+    .Contact a:visited {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
+    }
+
+    .Contact a:active {
+        color: #bb8a5f;
+        text-decoration: underline #bb8a5f;
     }
 }
 
@@ -139,7 +279,7 @@ html {
     }
 
     .Reviews p {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin: auto;
         width: fit-content;
     }
