@@ -334,6 +334,7 @@ html {
 
 /*CSS For Landscape Tablet Screens*/
 /*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+/* MAKE IT FIT ON A 769 SCREEN */
 @media only screen and (max-width: 1024px) {
 
     .Nav {
@@ -357,6 +358,7 @@ html {
 
 /*CSS For Vertical Tablet Screens*/
 /*WILL NEED UPDATING AFTER EVERY SECTION IS DONE*/
+/* MAKE IT FIT ON A 481 SCREEN */
 @media only screen and (max-width: 768px) {
 
     .Nav {
